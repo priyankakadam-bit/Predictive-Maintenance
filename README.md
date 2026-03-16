@@ -51,21 +51,7 @@ predictive-maintenance/
 └── README.md
 ```
 
-## Run Locally
-```bash
-git clone https://github.com/YOUR_USERNAME/predictive-maintenance
-cd predictive-maintenance
-pip install -r requirements.txt
-jupyter notebook                          # run both notebooks first
-streamlit run app/streamlit_app.py        # then launch the app
-```
 
-## Deploy Free on Streamlit Cloud
-1. Push repo to GitHub
-2. Go to share.streamlit.io
-3. Connect repo, select app/streamlit_app.py
-4. Your app gets a public URL - add it to your README and LinkedIn!
 
----
-Built by Priyanka Kadam | Data Scientist | Wiesbaden, Germany
+
 
