@@ -9,7 +9,7 @@ enabling proactive maintenance and reducing unplanned downtime by up to 40%.
 - Source: AI4I 2020 Predictive Maintenance Dataset (UCI ML Repository / Kaggle)
 - Size: 10,000 machine sensor readings
 - Target: Binary classification - Machine Failure (0 = healthy, 1 = failure)
-- Challenge: Only 3.4% failure rate, handled with SMOTE
+- Challenge: Only 3.4% failure rate, handled with SMOTE 
 
 ## Methodology
 1. EDA - visualize sensor distributions, check class imbalance, correlation heatmap
