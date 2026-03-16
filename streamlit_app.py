@@ -8,8 +8,8 @@ st.set_page_config(page_title="Predictive Maintenance", page_icon="machine", lay
 
 @st.cache_resource
 def load_artifacts():
-    model  = joblib.load("models/best_model.pkl")
-    scaler = joblib.load("models/scaler.pkl")
+    model  = joblib.load("best_model.pkl")
+    scaler = joblib.load("scaler.pkl")
     return model, scaler
 
 model, scaler = load_artifacts()
