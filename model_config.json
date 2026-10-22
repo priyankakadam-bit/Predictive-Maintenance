@@ -1,0 +1,20 @@
+{
+  "type_map": {
+    "H": 0,
+    "L": 1,
+    "M": 2
+  },
+  "features": [
+    "Type",
+    "Air temperature [K]",
+    "Process temperature [K]",
+    "Rotational speed [rpm]",
+    "Torque [Nm]",
+    "Tool wear [min]",
+    "temp_diff",
+    "power",
+    "wear_torque",
+    "wear_rate"
+  ],
+  "model": "Random Forest"
+}
